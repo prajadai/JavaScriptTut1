@@ -11,40 +11,42 @@
 
     <img id="loadImg" src="C:\Users\User\Pictures\Bhaila 2081\bhailaface-4.jpg" alt="An image of me" width="200">
     <br><br>
+    <form id="userForm" action="newpage.html">
+        <div id="userInfo">
+            <label id="labelFirstName">First Name:</label>
+            <input type="text" id="firstName" placeholder="Ram" required>
+            <br><br>
 
-    <div id="userInfo">
-        <label id="labelFirstName">First Name:</label>
-        <input type="text" id="firstName" placeholder="Ram" required>
-        <br><br>
+            <label id="labelLastName">Last Name:</label>
+            <input type="text" id="lastName" placeholder="Bahadur" required>
+            <br><br>
 
-        <label id="labelLastName">Last Name:</label>
-        <input type="text" id="lastName" placeholder="Bahadur" required>
-        <br><br>
+            <label id="labelEmail">Email:</label>
+            <input type="text" id="userEmail" placeholder="rambahadur@gmail.com" required>
+            <br><br>
+            
+            <label id="labelPass">Password:</label>
+            <input type="password" id="userPass" required>
+            
+        </div> 
 
-        <label id="labelEmail">Email:</label>
-        <input type="text" id="userEmail" placeholder="rambahadur@gmail.com" required>
-        <br><br>
-        
-        <label id="labelPass">Password:</label>
-        <input type="password" id="userPass" required>
-          
-    </div> 
+        <div id="confirmId">
+            <p id="terms">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto neque quos a debitis! 
+                Qui incidunt ducimus esse tempora doloribus veritatis expedita, ad, 
+                exercitationem tenetur perferendis eligendi illo aut, voluptates numquam?
+            </p>
+        </div>
 
-    <div id="confirmId">
-        <p id="terms">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto neque quos a debitis! 
-            Qui incidunt ducimus esse tempora doloribus veritatis expedita, ad, 
-            exercitationem tenetur perferendis eligendi illo aut, voluptates numquam?
-        </p>
-    </div>
-
-    <br>
-
-    <div id="ChkBoxBtn">
-        <input type="checkbox" id="agreement">
-        <label>Yes, I agree to the terms and conditions.</label>
         <br>
-        <button id="Btn" type="submit">Log In</button>
-    </div>
+
+        <div id="ChkBoxBtn">
+            <input type="checkbox" id="agreement" required>
+            <label>Yes, I agree to the terms and conditions.</label>
+            <br>
+            <input type="submit" id="Btn" value="submit">
+            <!-- <button id="Btn" type="submit">Log In</button> -->
+        </div>
+    </form>
     <script src="index.js"> </script>
 </body>
 </html>
